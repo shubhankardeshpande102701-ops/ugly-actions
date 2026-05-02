@@ -2,7 +2,7 @@
 
 ## 1. Brand
 
-Ugly Actions should feel like premium performance gear for rookies: sharp, confident, and approachable without becoming soft.
+Ugly Actions should feel classy, dark, restrained, and emotionally loaded. It should be able to expand beyond gymwear into golf garments, accessories, and active lifestyle pieces.
 
 ## 2. Color
 
@@ -10,10 +10,12 @@ Ugly Actions should feel like premium performance gear for rookies: sharp, confi
 - Graphite: `#171717`
 - Fog: `#f4f4f1`
 - Steel: `#8b929c`
-- Volt: `#d7ff38`
-- Signal: `#ff4d1d`
+- Bronze: `#c7a16a`
+- Oxblood: `#a72f22`
+- Volt: `#d7ff38` for legacy product accents only
+- Signal: `#ff4d1d` for legacy product accents only
 
-Use black and graphite as the base. Use volt for primary actions and high-priority labels. Use signal orange sparingly.
+Use black, graphite, fog, bronze, and oxblood for the brand homepage. Keep volt away from luxury/editorial brand surfaces unless intentionally referencing sport utility.
 
 ## 3. Typography
 
@@ -25,13 +27,13 @@ Rules:
 - Clear 16px+ body text.
 - Strong uppercase labels.
 - No negative letter spacing.
-- Avoid decorative type until the brand identity is more mature.
+- Avoid generic gymwear type treatments.
 
 ## 4. Layout
 
 - Full-width sections with constrained inner content.
 - Cards only for repeated product items.
-- Product pages should prioritize fit, size, material, and drop-list action.
+- Product pages should prioritize fit, size, material, garment quality, and drop-list action.
 - Mobile layouts must keep buttons and text readable without overlap.
 
 ## 5. Components
@@ -52,4 +54,4 @@ Component rules:
 
 ## 6. Motion And Interaction
 
-Keep motion minimal until the visual identity matures. Prefer useful feedback, visible focus, and clean hover states over decorative animation.
+Keep motion subtle, cinematic, and reduced-motion-safe. Use movement to create depth and emotional gravity, not hype.

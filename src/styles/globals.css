@@ -526,7 +526,7 @@ p {
 
 .cinematic-home {
   background:
-    linear-gradient(180deg, #050505 0%, #0a0908 42%, #070707 100%);
+    linear-gradient(180deg, #050505 0%, #0c0b09 44%, #070707 100%);
   color: var(--fog);
   overflow: hidden;
 }
@@ -635,8 +635,8 @@ p {
   align-self: stretch;
   background:
     linear-gradient(180deg, rgba(244, 244, 241, 0.08), rgba(244, 244, 241, 0.02)),
-    #100e0b;
-  border: 1px solid rgba(244, 244, 241, 0.16);
+    #0f0e0b;
+  border: 1px solid rgba(199, 161, 106, 0.28);
   min-height: 620px;
   overflow: hidden;
 }
@@ -725,7 +725,7 @@ p {
 
 .identity-panel {
   background:
-    linear-gradient(180deg, rgba(244, 244, 241, 0.075), rgba(244, 244, 241, 0.025)),
+    linear-gradient(180deg, rgba(199, 161, 106, 0.08), rgba(244, 244, 241, 0.02)),
     #0f0d0b;
   border: 1px solid rgba(244, 244, 241, 0.12);
   border-radius: 6px;
@@ -761,7 +761,7 @@ p {
   align-items: end;
   aspect-ratio: 4 / 5;
   background:
-    linear-gradient(145deg, rgba(167, 47, 34, 0.2), transparent 42%),
+    linear-gradient(145deg, rgba(199, 161, 106, 0.18), transparent 42%),
     #15120e;
   display: flex;
   overflow: hidden;
@@ -786,7 +786,7 @@ p {
 }
 
 .drop-piece__visual--training-hoodie::after {
-  background: linear-gradient(135deg, #a72f22, #c7a16a);
+  background: linear-gradient(135deg, #3a3024, #c7a16a);
   clip-path: polygon(29% 18%, 38% 8%, 62% 8%, 71% 18%, 86% 34%, 77% 49%, 70% 42%, 76% 92%, 24% 92%, 30% 42%, 23% 49%, 14% 34%);
 }
 
@@ -841,7 +841,7 @@ p {
   align-items: end;
   background:
     linear-gradient(135deg, rgba(199, 161, 106, 0.22), transparent 44%),
-    linear-gradient(315deg, rgba(167, 47, 34, 0.22), transparent 38%),
+    linear-gradient(315deg, rgba(244, 244, 241, 0.08), transparent 38%),
     #14110e;
   border: 1px solid rgba(244, 244, 241, 0.13);
   display: flex;

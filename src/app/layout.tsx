@@ -12,7 +12,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Ugly Actions | Athletic Wear",
-  description: "Premium unisex training wear built for ugly reps, clean execution, and everyday movement."
+  description:
+    "Premium activewear garments built around decision, action, imperfect timing, and movement over perfection."
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

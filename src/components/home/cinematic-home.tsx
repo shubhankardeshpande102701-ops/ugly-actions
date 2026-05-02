@@ -8,18 +8,18 @@ import { products } from "@/data/products";
 
 const identityPillars = [
   {
-    title: "Hunger",
-    copy: "For the person who feels behind but refuses to stay there.",
+    title: "Decision",
+    copy: "There may not be a perfect choice. There is only the choice you stand behind.",
     stat: "01"
   },
   {
-    title: "Discipline",
-    copy: "Quiet repetition. Ugly reps. Proof built before anyone claps.",
+    title: "Action",
+    copy: "Movement turns doubt into information. The next step teaches what thinking cannot.",
     stat: "02"
   },
   {
-    title: "Imperfection",
-    copy: "Not polished. Not finished. Still moving with intent.",
+    title: "Timing",
+    copy: "Right time, wrong time, ugly time. The clock matters less than the action.",
     stat: "03"
   }
 ];
@@ -27,25 +27,25 @@ const identityPillars = [
 const storyFrames = [
   {
     kicker: "Before",
-    title: "The room is empty. The mirror is honest.",
-    copy: "No crowd, no campaign, no perfect angle. Just the first decision."
+    title: "No perfect sign arrives.",
+    copy: "The day may be clean or chaotic. Either way, the first decision belongs to you."
   },
   {
     kicker: "During",
-    title: "Action turns self-doubt into evidence.",
-    copy: "Every imperfect session becomes a receipt that you are not who you were."
+    title: "Action makes the choice real.",
+    copy: "A swing, a rep, a walk, a meeting, a reset. The body learns through motion."
   },
   {
     kicker: "After",
-    title: "You leave with less noise and more gravity.",
-    copy: "The clothes are the signal. The work is the identity."
+    title: "The result becomes less important than the standard.",
+    copy: "You acted before the moment looked perfect. That is the identity."
   }
 ];
 
 const communityPoints = [
-  "For rookies who want standards, not intimidation.",
-  "For quiet people building violent consistency.",
-  "For anyone becoming harder to ignore through daily action."
+  "For people who choose motion over waiting for permission.",
+  "For active lives that move between training, golf, travel, and daily discipline.",
+  "For anyone who believes imperfect action beats perfect hesitation."
 ];
 
 export function CinematicHome() {
@@ -54,7 +54,7 @@ export function CinematicHome() {
   const mouseY = useMotionValue(260);
   const springX = useSpring(mouseX, { stiffness: 70, damping: 28 });
   const springY = useSpring(mouseY, { stiffness: 70, damping: 28 });
-  const spotlight = useMotionTemplate`radial-gradient(620px circle at ${springX}px ${springY}px, rgba(167, 47, 34, 0.24), transparent 58%)`;
+  const spotlight = useMotionTemplate`radial-gradient(620px circle at ${springX}px ${springY}px, rgba(199, 161, 106, 0.18), transparent 58%)`;
 
   function handlePointerMove(event: React.PointerEvent<HTMLElement>) {
     if (reduceMotion) {
@@ -81,14 +81,14 @@ export function CinematicHome() {
             animate={reduceMotion ? undefined : { opacity: 1, y: 0 }}
             transition={{ duration: 0.55 }}
           >
-            Ugly Actions / Drop 001
+            Ugly Actions / Activewear in motion
           </motion.p>
           <motion.h1
             initial={reduceMotion ? false : { opacity: 0, y: 22 }}
             animate={reduceMotion ? undefined : { opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.08 }}
           >
-            Become the person your old life could not hold.
+            Ugly Actions Beats Perfection.
           </motion.h1>
           <motion.p
             className="cinematic-hero__lede"
@@ -96,8 +96,8 @@ export function CinematicHome() {
             animate={reduceMotion ? undefined : { opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.16 }}
           >
-            Premium training wear for rookies, returners, and self-made athletes who are
-            becoming someone through struggle, hunger, imperfection, and action.
+            Classy activewear for people who know there is no perfect moment, no flawless
+            choice, and no clean path. Decide. Take action. Let the timing be right or ugly.
           </motion.p>
           <motion.div
             className="cinematic-actions"
@@ -106,7 +106,7 @@ export function CinematicHome() {
             transition={{ duration: 0.6, delay: 0.24 }}
           >
             <Link className="cinematic-button cinematic-button--primary" href="/products">
-              Enter Drop 001 <ArrowRight aria-hidden size={18} />
+              Explore the first garments <ArrowRight aria-hidden size={18} />
             </Link>
             <a className="cinematic-button cinematic-button--ghost" href="#manifesto">
               Read manifesto
@@ -124,38 +124,38 @@ export function CinematicHome() {
         >
           <img src="/images/brand/ua-struggle-mark.svg" alt="" aria-hidden />
           <div className="poster-copy">
-            <span>Not perfect</span>
-            <strong>Still moving</strong>
+            <span>Beats perfection</span>
+            <strong>Action decides</strong>
           </div>
         </motion.div>
 
         <div className="cinematic-hero__ribbon" aria-hidden>
-          Hunger / Discipline / Imperfection / Action
+          Decision / Action / Timing / Imperfection
         </div>
       </motion.section>
 
       <section id="manifesto" className="manifesto-section">
         <p className="cinematic-kicker">Manifesto</p>
         <h2>
-          We are not selling the fantasy of being finished. We are building the uniform for
-          people still becoming.
+          No one is perfect. No choice is perfectly clean. The brand begins where waiting
+          ends: decision, action, and the courage to move before the moment looks ready.
         </h2>
         <div className="manifesto-grid">
           <p>
-            Ugly Actions is for the early version of you that still shows up. The one with
-            bad form, nervous hunger, heavy thoughts, and enough pride to try again.
+            Ugly Actions is activewear for the life in motion: training, walking, traveling,
+            golfing, recovering, and starting again before everything feels certain.
           </p>
           <p>
-            The brand is not clean because the process is not clean. It is disciplined,
-            masculine, emotional, and elevated because becoming someone requires all four.
+            The point is not to glorify mess. The point is to dress the person who acts
+            anyway, with enough taste to look composed and enough edge to feel alive.
           </p>
         </div>
       </section>
 
       <section className="identity-section">
         <div className="section-lockup">
-          <p className="cinematic-kicker">Emotional identity</p>
-          <h2>Made for the part of you that refuses to disappear.</h2>
+          <p className="cinematic-kicker">Brand philosophy</p>
+          <h2>For the ones who stop waiting for the perfect version of themselves.</h2>
         </div>
         <div className="identity-grid">
           {identityPillars.map((pillar) => (
@@ -176,7 +176,7 @@ export function CinematicHome() {
       <section className="featured-drop">
         <div className="section-lockup">
           <p className="cinematic-kicker">Featured drop</p>
-          <h2>Three pieces. One first identity.</h2>
+          <h2>First garments for active lives, not just gym floors.</h2>
         </div>
         <div className="drop-editorial-grid">
           {products.map((product, index) => (
@@ -207,7 +207,7 @@ export function CinematicHome() {
       <section className="story-section">
         <div className="section-lockup">
           <p className="cinematic-kicker">Editorial visual story</p>
-          <h2>The becoming has stages.</h2>
+          <h2>The moment is rarely perfect. The action can still be yours.</h2>
         </div>
         <div className="story-track">
           {storyFrames.map((frame, index) => (
@@ -235,10 +235,10 @@ export function CinematicHome() {
       <section className="community-section">
         <div className="community-section__copy">
           <p className="cinematic-kicker">Community</p>
-          <h2>You are not alone in the ugly part.</h2>
+          <h2>A quiet signal for people who move before they feel ready.</h2>
           <p>
-            Ugly Actions should become more than clothing: a private signal between people
-            who understand that ambition can be heavy, emotional, and still worth carrying.
+            Ugly Actions can grow from training wear into golf garments, accessories, and
+            everyday active pieces without losing the idea: movement over perfection.
           </p>
         </div>
         <div className="community-list">
@@ -253,11 +253,11 @@ export function CinematicHome() {
 
       <section id="drop-list" className="premium-capture">
         <div>
-          <p className="cinematic-kicker">The first circle</p>
-          <h2>Get the drop before the brand gets loud.</h2>
+          <p className="cinematic-kicker">First access</p>
+          <h2>Join before the first complete collection takes shape.</h2>
           <p>
-            Join for product previews, founder notes, and early access. No fake urgency.
-            No noise. Just the first signal.
+            Product previews, garment direction, and notes as Ugly Actions expands from
+            activewear essentials into a fuller uniform for motion.
           </p>
         </div>
         <EmailCapture source="cinematic-home" />
@@ -266,7 +266,7 @@ export function CinematicHome() {
       <section className="luxury-footer">
         <div>
           <span>UGLY ACTIONS</span>
-          <p>Rookie energy. Premium discipline. Built through action.</p>
+          <p>Activewear for decision, action, and imperfect timing.</p>
         </div>
         <div className="luxury-footer__links">
           <a href="#manifesto">

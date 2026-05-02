@@ -55,8 +55,9 @@ For NetBeans, open `C:\Shubh\UglyAction` as the project folder. The important fi
 
 ## Brutally Honest Brand Recommendations
 
-- Ugly Actions is strongest if it stops trying to look like a gymwear brand and becomes a belief system first.
-- The word "rookies" is useful, but do not make the brand feel beginner-only. Make it feel like the first chapter of serious people.
+- Ugly Actions is strongest if it becomes a belief system first: imperfect action beats perfect hesitation.
+- "Rookies" can be part of the voice, but the brand should not be trapped there. Make it feel like activewear for becoming, not beginner gear.
+- Golf garments and accessories can work if the brand keeps the same philosophy: decision, action, timing, motion.
 - Real photography will matter. Dark typography alone can feel fake if the visuals never show bodies, texture, sweat, fabric, or environment.
 - Your first drop should be extremely small and opinionated. Three pieces is correct.
 - Do not overuse motivational copy. The brand should sound like restraint, not hype.
