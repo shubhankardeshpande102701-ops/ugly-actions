@@ -1,0 +1,31 @@
+# Codex Instructions For Ugly Actions
+
+Project goal: build a premium, local-first athletic wear product preview storefront for Ugly Actions.
+
+Collaboration style:
+- Explain commands, tradeoffs, and implementation choices in beginner-friendly language.
+- Prefer small, understandable steps and clear commit messages.
+- Keep the user informed before pushing code or changing project structure.
+
+Tech choices:
+- Use Next.js, TypeScript, React, and Tailwind CSS.
+- Keep v1 local-first with mock product data.
+- Shape product data so it can later map to Shopify.
+- Shopify checkout is future work, not part of v1.
+
+Design rules:
+- Premium performance athletic wear, not a generic template.
+- Mobile-first, accessible, fast, and product-confidence focused.
+- Use visible size selectors, fit notes, material details, shipping/returns preview, and email capture.
+- Avoid decorative clutter. Make the products, brand, and actions immediately clear.
+
+Git rules:
+- Repository target: private GitHub repo named ugly-actions under user bakharwadi.
+- Use small commits.
+- Explain before pushing.
+- Do not commit secrets, API keys, or .env files.
+
+V1 scope:
+- Products: training shorts, performance t-shirt, and training hoodie.
+- Coming soon / drop list experience only.
+- No live checkout.
