@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-label="Abstract Ugly Actions editorial mark">
+  <rect width="900" height="1200" fill="#090806"/>
+  <path d="M109 1079 741 143" stroke="#f4f4f1" stroke-width="3" stroke-opacity=".34"/>
+  <path d="M192 952 706 292" stroke="#a72f22" stroke-width="16" stroke-opacity=".82"/>
+  <rect x="140" y="182" width="620" height="836" fill="none" stroke="#f4f4f1" stroke-opacity=".18" stroke-width="2"/>
+  <rect x="214" y="258" width="472" height="684" fill="#12100d" stroke="#b18b5a" stroke-opacity=".32"/>
+  <path d="M308 808V384h88v260c0 67 25 102 75 102 49 0 75-35 75-102V384h88v424h-82v-55c-26 42-63 63-112 63-86 0-132-58-132-166Z" fill="#f4f4f1"/>
+  <path d="M222 914 450 276l228 638h-96l-42-128H360l-42 128h-96Zm165-208h126l-63-193-63 193Z" fill="#d8ff38"/>
+  <circle cx="450" cy="600" r="318" fill="none" stroke="#f4f4f1" stroke-opacity=".08" stroke-width="56"/>
+  <text x="74" y="92" fill="#f4f4f1" fill-opacity=".72" font-family="Arial, sans-serif" font-size="30" font-weight="700">UGLY ACTIONS</text>
+  <text x="74" y="1134" fill="#b18b5a" font-family="Arial, sans-serif" font-size="22" font-weight="700">HUNGER / DISCIPLINE / IMPERFECTION / ACTION</text>
+</svg>
