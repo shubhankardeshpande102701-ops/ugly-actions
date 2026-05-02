@@ -28,7 +28,7 @@ export default function HomePage() {
       <section className="hero-shell">
         <div className="hero-copy">
           <p className="eyebrow">Ugly Actions / Drop 001</p>
-          <h1>Performance gear for the reps no one posts.</h1>
+          <h1>Performance gear for rookies.</h1>
           <p className="hero-lede">
             Ugly Actions is a premium unisex training label launching with three essentials:
             shorts, a t-shirt, and a hoodie built for work before applause.
