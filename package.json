@@ -9,10 +9,12 @@
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "ai:design-audit": "impeccable detect src/",
-    "ai:design-audit:json": "impeccable detect src/ --json"
+    "ai:design-audit:json": "impeccable detect src/ --json",
+    "ai:uipro": "uipro --help"
   },
   "dependencies": {
     "clsx": "^2.1.1",
+    "framer-motion": "^12.38.0",
     "lucide-react": "^0.468.0",
     "next": "^15.1.6",
     "react": "^19.0.0",
@@ -28,6 +30,7 @@
     "impeccable": "^2.1.8",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.17",
-    "typescript": "^5.7.3"
+    "typescript": "^5.7.3",
+    "uipro-cli": "^2.2.3"
   }
 }

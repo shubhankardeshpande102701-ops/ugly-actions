@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowRight, Dumbbell, ShieldCheck, Sparkles } from "lucide-react";
 import { EmailCapture } from "@/components/marketing/email-capture";
+import { FadeIn } from "@/components/motion/fade-in";
 import { ProductCard } from "@/components/product/product-card";
 import { products } from "@/data/products";
 
@@ -26,7 +27,7 @@ export default function HomePage() {
   return (
     <>
       <section className="hero-shell">
-        <div className="hero-copy">
+        <FadeIn className="hero-copy">
           <p className="eyebrow">Ugly Actions / Drop 001</p>
           <h1>Performance gear for rookies.</h1>
           <p className="hero-lede">
@@ -41,8 +42,13 @@ export default function HomePage() {
               Join drop list
             </a>
           </div>
-        </div>
-        <div className="hero-visual" aria-label="Abstract athletic wear campaign visual">
+        </FadeIn>
+        <FadeIn
+          className="hero-visual"
+          delay={0.12}
+          aria-label="Abstract athletic wear campaign visual"
+          role="img"
+        >
           <div className="hero-visual__badge">UA</div>
           <div className="hero-visual__panel hero-visual__panel--one" />
           <div className="hero-visual__panel hero-visual__panel--two" />
@@ -50,14 +56,14 @@ export default function HomePage() {
             <span>Preview system</span>
             <strong>3 pieces / 1 drop</strong>
           </div>
-        </div>
+        </FadeIn>
       </section>
 
       <section className="section-band">
-        <div className="section-heading">
+        <FadeIn className="section-heading">
           <p className="eyebrow">The first uniform</p>
           <h2>Three products, no filler.</h2>
-        </div>
+        </FadeIn>
         <div className="product-grid">
           {products.map((product) => (
             <ProductCard key={product.slug} product={product} />

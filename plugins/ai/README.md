@@ -7,6 +7,8 @@ The goal is to keep AI tooling organized instead of scattering notes, setup comm
 ## Current Plugin
 
 - `impeccable/`: design-quality skill and CLI for AI coding workflows.
+- `ui-ux-pro-max/`: vendored UI/UX Pro Max skill set from NextLevelBuilder.
+- `framer-motion/`: React animation library notes and project usage guidance.
 
 ## Planned Next.js AI Plugins
 

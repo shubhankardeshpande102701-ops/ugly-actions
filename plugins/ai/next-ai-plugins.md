@@ -7,6 +7,8 @@ This is the planning registry for AI tooling that may belong in the Ugly Actions
 | Plugin | Purpose | Status |
 | --- | --- | --- |
 | Impeccable | Design audit and AI design workflow support | Installed as dev dependency |
+| UI/UX Pro Max | UI/UX skill set and design intelligence references | Installed as dev dependency plus vendored skill files |
+| Framer Motion | React animation library | Installed as app dependency |
 
 ## Strong Candidates For Later
 
