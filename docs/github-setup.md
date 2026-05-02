@@ -1,6 +1,6 @@
 # GitHub Setup
 
-Target GitHub account: `bakharwadi`
+Target GitHub account: `shubhankardeshpande102701-ops`
 
 Target repository: `ugly-actions`
 
@@ -31,7 +31,7 @@ Then create a private GitHub repository named `ugly-actions` under your account 
 
 ```bash
 git branch -M main
-git remote add origin https://github.com/bakharwadi/ugly-actions.git
+git remote add origin https://github.com/shubhankardeshpande102701-ops/ugly-actions.git
 git push -u origin main
 ```
 
@@ -39,7 +39,7 @@ If you use GitHub CLI later:
 
 ```bash
 gh auth login
-gh repo create bakharwadi/ugly-actions --private --source=. --remote=origin --push
+gh repo create shubhankardeshpande102701-ops/ugly-actions --private --source=. --remote=origin --push
 ```
 
 Do not commit `.env` files or API keys.
